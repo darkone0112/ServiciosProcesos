@@ -1,12 +1,13 @@
 
 #include <stdio.h>
-
+#include <time.h>
 int main() {
+    double tiempo = 0.0;
    int bajo, alto, i, controlador;
    printf("Introduce dos numeros (en un intervalo): ");
    scanf("%d %d", &bajo, &alto);
-   printf("Los numeros enteros entre %d y %d son: ", bajo, alto);
-
+   printf("Los numeros enteros entre %d y %d son: ", bajo, alto , "\n");
+   time_t inicio = time(NULL);
    while (bajo < alto) {
       controlador = 0;
       if (bajo <= 1) {
@@ -24,5 +25,8 @@ int main() {
          printf("%d ", bajo);
       ++bajo;
    }
+   time_t final = time(NULL);
+    tiempo = (final - inicio);
+   printf("ha tardado %f segundos",tiempo);
    return 0;
 }
