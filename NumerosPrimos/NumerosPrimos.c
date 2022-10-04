@@ -7,7 +7,7 @@ int main() {
    printf("Introduce dos numeros (en un intervalo): ");
    scanf("%d %d", &bajo, &alto);
    printf("Los numeros enteros entre %d y %d son: ", bajo, alto , "\n");
-   time_t inicio = time(NULL);
+   time_t inicio = time(NULL);4
    while (bajo < alto) {
       controlador = 0;
       if (bajo <= 1) {
