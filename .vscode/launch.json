@@ -2,6 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch ej4",
+            "request": "launch",
+            "mainClass": "ej4",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
             "name": "C/C++ Runner: Debug Session",
             "type": "cppdbg",
             "request": "launch",
