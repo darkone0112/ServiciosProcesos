@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ej5",
+            "request": "launch",
+            "mainClass": "ej5",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ej4_2",
+            "request": "launch",
+            "mainClass": "ej4_2",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
+            "type": "java",
             "name": "Launch ej4",
             "request": "launch",
             "mainClass": "ej4",
