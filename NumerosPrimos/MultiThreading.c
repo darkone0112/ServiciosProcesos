@@ -5,7 +5,7 @@
 void *runner(void *param); /* the thread */
 
 int main(int argc, char *argv[]) {
-
+   
    //Verify two args were passed in
    if(argc < 2) {
       fprintf(stderr, "USAGE: ./prime.out <Integer value>\n");
