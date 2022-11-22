@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExecuteProcessBuilderFromJava",
+            "request": "launch",
+            "mainClass": "Java.Examen.ExecuteProcessBuilderFromJava.ExecuteProcessBuilderFromJava",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProcessBuilderej",
+            "request": "launch",
+            "mainClass": "Java.Examen.ProcessBuilderej.ProcessBuilderej",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
+            "type": "java",
             "name": "Launch main",
             "request": "launch",
             "mainClass": "main",
