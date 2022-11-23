@@ -4,9 +4,6 @@
 #include <string.h>
 #define LECTURA 0
 #define ESCRITURA 1
-pipe tuberia();
-fork();
-
 main (void)
 {   
     //variable pid_t
@@ -16,6 +13,7 @@ main (void)
     int numA,numB,sum=0;
     
     //Activa la tuberia
+    pipe(tuberia);
     
     //se realiza la creacion del hijo
     pid=fork();
