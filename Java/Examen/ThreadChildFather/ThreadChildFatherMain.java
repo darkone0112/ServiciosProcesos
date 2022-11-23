@@ -3,9 +3,10 @@
  */
 public class ThreadChildFatherMain{
     public static void main(String[] args){
-        thread thread = new thread();
-        threadResta threadResta = new threadResta();
-        thread.start();
-        threadResta.start();
+        myRunnable runnable1 = new myRunnable();
+        Thread thread1 = new Thread(runnable1);
+        thread1.start();
+        threadResta thread2 = new threadResta();
+        thread2.start();
     }
 }
