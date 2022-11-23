@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ejecutor",
+            "request": "launch",
+            "mainClass": "Java.Examen.chunguisimo.ejecutor",
+            "projectName": "ServiciosProcesos_f6067f0d"
+        },
+        {
+            "type": "java",
             "name": "Launch ProcessMac",
             "request": "launch",
             "mainClass": "Java.Examen.ProcessMac.ProcessMac",
