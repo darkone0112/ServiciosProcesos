@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch carreraMain",
+            "request": "launch",
+            "mainClass": "carreraMain",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
+            "type": "java",
             "name": "Launch ThreadChildFatherMain",
             "request": "launch",
             "mainClass": "ThreadChildFatherMain",

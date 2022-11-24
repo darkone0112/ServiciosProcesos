@@ -9,5 +9,6 @@ public class carreraMain {
         for (int i = 0; i < corredores.length; i++) {
             thread[i].start();
         }
-    }
+        
+    }   
 }
