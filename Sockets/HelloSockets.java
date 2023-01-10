@@ -1,0 +1,25 @@
+package Sockets;
+
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.net.Socket;
+
+/**
+ * HelloSockets
+ */
+public class HelloSockets {
+    public static void main(String []args) {
+        try {
+            Socket con  = new Socket("192.168.115.14",1234);
+            BufferedOutputStream out = new BufferedOutputStream(con.getOutputStream());
+            out.write("Hello World".getBytes());
+            out.close();
+            con.close();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+}

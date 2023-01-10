@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HelloSockets",
+            "request": "launch",
+            "mainClass": "Sockets.HelloSockets",
+            "projectName": "ServiciosProcesos_bccab191"
+        },
+        {
+            "type": "java",
             "name": "Launch carreraMain",
             "request": "launch",
             "mainClass": "carreraMain",
