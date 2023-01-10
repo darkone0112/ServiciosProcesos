@@ -3,6 +3,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch carreraMain",
+            "request": "launch",
+            "mainClass": "carreraMain",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadChildFatherMain",
+            "request": "launch",
+            "mainClass": "ThreadChildFatherMain",
+            "projectName": "ServiciosProcesos_f6067f0d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reloj",
+            "request": "launch",
+            "mainClass": "Java.Examen.RelojContador.Reloj",
+            "projectName": "ServiciosProcesos_f6067f0d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Repaso5TxtMain",
+            "request": "launch",
+            "mainClass": "Java.Examen.Repaso5Txt.Repaso5TxtMain",
+            "projectName": "ServiciosProcesos_f6067f0d"
+        },
+        {
+            "type": "java",
+            "name": "Launch repaso5Main",
+            "request": "launch",
+            "mainClass": "Java.Examen.Repaso5.repaso5Main",
+            "projectName": "ServiciosProcesos_f6067f0d"
+        },
+        {
+            "type": "java",
+            "name": "Launch repaso4main",
+            "request": "launch",
+            "mainClass": "Java.Examen.Repaso4.repaso4main",
+            "projectName": "ServiciosProcesos_f6067f0d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejecutor",
+            "request": "launch",
+            "mainClass": "Java.Examen.chunguisimo.ejecutor",
+            "projectName": "ServiciosProcesos_f6067f0d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProcessMac",
+            "request": "launch",
+            "mainClass": "Java.Examen.ProcessMac.ProcessMac",
+            "projectName": "ServiciosProcesos_f6067f0d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExecuteProcessBuilderFromJava",
+            "request": "launch",
+            "mainClass": "Java.Examen.ExecuteProcessBuilderFromJava.ExecuteProcessBuilderFromJava",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProcessBuilderej",
+            "request": "launch",
+            "mainClass": "Java.Examen.ProcessBuilderej.ProcessBuilderej",
+            "projectName": "ServiciosProcesos_db3f9b6c"
+        },
+        {
+            "type": "java",
             "name": "Launch main",
             "request": "launch",
             "mainClass": "main",
