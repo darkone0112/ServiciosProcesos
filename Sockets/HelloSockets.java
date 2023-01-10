@@ -1,9 +1,7 @@
 package Sockets;
-
 import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
+import java.net.ConnectException;
 import java.net.Socket;
 
 /**
@@ -17,7 +15,11 @@ public class HelloSockets {
             out.write("Hello World".getBytes());
             out.close();
             con.close();
-        } catch (IOException e) {
+        }
+        catch (ConnectException d){
+            System.out.println("Conexion Rechazada");
+        }
+        catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
